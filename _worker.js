@@ -989,8 +989,8 @@ async function subHtml(request) {
 				<meta charset="UTF-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				<title>${FileName}</title>
-				${网站图标}				
-				style>
+				${网站图标}
+				<style>
 					:root {
 						--primary-color: #4361ee;
 						--hover-color: #3b4fd3;
