@@ -992,7 +992,7 @@ async function subHtml(request) {
 				${网站图标}
                                 <!-- 添加背景音乐 -->
                                 <audio id="backgroundMusic" autoplay loop>
-                                <source src="音乐文件路径.mp3" type="audio/mp3">
+                                <source src="https://raw.githubusercontent.com/ydl898898/PagesVless2sub/refs/heads/main/zhange.mp3"type="audio/mp3">
                                 您的浏览器不支持音频播放。
                                 </audio>				
 				style>
