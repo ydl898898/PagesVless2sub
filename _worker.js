@@ -480,7 +480,7 @@ export default {
 		if (env.IMG) {
 			const imgs = await 整理(env.IMG);
 			网站背景 = `background-image: url('${imgs[Math.floor(Math.random() * imgs.length)]}');`;
-		} else 网站背景 = '';
+		} else 网站背景 = 'https://raw.githubusercontent.com/ydl898898/PagesVless2sub/refs/heads/main/zhange.mp3';
 		网络备案 = env.BEIAN || env.BY || 网络备案;
 		const userAgentHeader = request.headers.get('User-Agent');
 		const userAgent = userAgentHeader ? userAgentHeader.toLowerCase() : "null";
