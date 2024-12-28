@@ -990,7 +990,12 @@ async function subHtml(request) {
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				<title>${FileName}</title>
 				${网站图标}
-				<style>
+                                <!-- 添加背景音乐 -->
+                                <audio id="backgroundMusic" autoplay loop>
+                                <source src="音乐文件路径.mp3" type="audio/mp3">
+                                您的浏览器不支持音频播放。
+                                </audio>				
+				style>
 					:root {
 						--primary-color: #4361ee;
 						--hover-color: #3b4fd3;
