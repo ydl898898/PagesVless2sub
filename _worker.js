@@ -989,10 +989,7 @@ async function subHtml(request) {
 				<meta charset="UTF-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				<title>${FileName}</title>
-				${网站图标}
-                                <audio id="backgroundMusic" autoplay loop>
-                                <source src="https://raw.githubusercontent.com/ydl898898/PagesVless2sub/refs/heads/main/zhange.mp3"type="audio/mp3">
-                                </audio>				
+				${网站图标}				
 				style>
 					:root {
 						--primary-color: #4361ee;
